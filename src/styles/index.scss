@@ -11,3 +11,51 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container{
+    text-align: center;
+   width: 600px;
+    
+}
+span{
+    color: rgb(201, 198, 198);
+    font-size: 100px;
+    font-weight: 300;
+}
+input{
+    outline: none;
+    background-color:transparent;
+    border: 0;
+    
+    margin: 0 40px;
+    font-size: 22px;
+
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: white;
+    box-shadow: 0 0 15px 2px rgb(194, 191, 191);
+    text-align: left;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 22px;
+   
+}
+ul{
+    list-style-type: none;
+    
+}
+li{
+    
+    margin: 0;
+    padding: 0;
+    
+}
+.total{
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
